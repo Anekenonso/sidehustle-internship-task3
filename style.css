@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #4e4e4e;
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration:none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+/* A color changes when hovered over */
+li a:hover {
+    background-color: #7300ff;
+}
